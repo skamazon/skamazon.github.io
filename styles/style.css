@@ -22,4 +22,7 @@ font-family: arial, sans-serif;
 .padding {
 	padding: 2.5em;
 }
+.border-hr-dashed {
+	border: 3px dashed #ff6347;
+}
 
