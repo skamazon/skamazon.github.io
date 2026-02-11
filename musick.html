@@ -22,6 +22,8 @@ html {
 
 <body>
 
+	<audio src="you-got-scammed.aac" id=skam-audio></audio>
+
   <section style="display: flex; flex-wrap: wrap; gap: 0.7em">
 
 
@@ -43,25 +45,25 @@ html {
 	<p> Original music by the Originals<br>rock</p>
 	
 
- <a href="sickskam.html" class="listenButton">
+ <button class="listenButton">
                    Listen to this album
- </a>
+ </button>
 
 </div>
 	<div>	<img width=300 height=300 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBj6prU1X1-AXiXIKgukCgef8eZ_s_-1pyIA&s" />
 		<p>
 		Nevermind by Coonvana <br> grunge rock</p>
-	 <a href="sickskam.html" class="listenButton">
+	 <button class="listenButton">
                    Listen to this album
- </a>
+ </button>
 
 	</div>
 
 <div>	<img width=300 height=300 src="MichealSackJon.png" />
 	<p> Bad by Micheal SackJon <br> disco/pop music </p>
- <a href="sickskam.html" class="listenButton">
+ <button class="listenButton">
                    Listen to this album
- </a>
+ </button>
 
 
 </div>
@@ -69,9 +71,9 @@ html {
 	<div>	<img width=300 height=300 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoA73dukPMt0L___bCVdkgu-1wkWtXgLHBTHTlz0fWeFPInVGcDw5A1NBqZwS3NXOOmRxLePsqIYtToKgvL1KDybic9mEZtNqfC8PcmK7BqPIPw_gfxZ6B0nm3eHGPhoR1tS5Mi2v8MpM/s400/album_Longua-de-Trapo-Vinte-e-Um-Anos-na-Estrada.jpg" />
 		<p>
 		Shabby Road by The Feetles <br> Pop/Rock/Folk</p>
-	 <a href="sickskam.html" class="listenButton">
+	 <button class="listenButton">
                    Listen to this album
- </a>
+ </button>
 
 
 	</div>
@@ -79,12 +81,21 @@ html {
 	<div>	<img width=300 height=300 src="bbno£.jpg" />
 		<p>
 		blablabla by bbno£ <br> HipHop/Pop/Rap</p>
-	 <a href="sickskam.html" class="listenButton">
+	 <button class="listenButton">
                    Listen to this album
- </a>
+ </button>
 	</div>
 
 
+<script>
+	const buttons = document.querySelectorAll(".listenButton")
+	buttons.forEach((button) => {
+		button.addEventListener("click",playAudio);
+	})
+	function playAudio (event){
+	document.getElementById ("skam-audio").play()
+	}
+</script>
 </body>
 
 </html>

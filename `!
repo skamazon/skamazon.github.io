@@ -1,0 +1,74 @@
+<html>
+	<head> 
+		<link href="styles/style.css" rel="stylesheet" />
+
+		<title> Skamazon Unafaudible Listening Services </title>
+<style>
+
+html {
+	font-family: "Arial"
+}
+
+</style>
+
+	</head>
+	<body>
+		<div class="centralisation"> <img width=920 height=260 src="Unafaudible-logo.png" />
+		</div>
+&nbsp;
+
+<section style="display: flex; flex-wrap: wrap; gap: 0.7em">
+
+	
+		<div>
+                <img
+                    width=199
+                    src="Skamazon-unafaudible/hairy-pothead.png"
+                />
+                <p>
+		Hairy Pothead and the <br> Marijuana Stone <br />
+		J.K. Moaning <br> 45e365 dollars 
+                </p>
+                <a href="listen-skam.html" class="listenButton">
+                    Listen to this audio book
+                </a>
+            </div>
+
+	<div>
+                <img
+                    width=199
+		    
+                    src="SKamazon-Unafaudible/The-lightning-fart.png"
+                />
+                <p>
+                    The Lightning Fart <br />
+		    Rick Riot-on<br> 45e645 dollars
+	</p>
+	<br> 
+		<a href="listen-skam.html" class="listenButton">
+                    Listen to this audio book
+                </a>
+            </div>
+
+	<div>
+                <img
+                    width=199
+		    
+                    src="Skamazon-unafaudible/blunderland.png"
+                />
+                <p>
+                    Alice in Blunderland <br />
+		     Lewis Carrot <br> 65265e246 dollars 
+	</p>
+	<br> 
+		<a href="listen-skam.html" class="listenButton">
+                    Listen to this audio book
+                </a>
+            </div>
+
+
+
+	</body>
+
+</html>
+
