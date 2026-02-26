@@ -1,0 +1,42 @@
+<html>
+	<head> <link href="styles/style.css" rel="stylesheet" />
+
+		<title> Scandle Skam </title>
+
+<style>
+
+html {
+	font-family: "Arial" ;
+}
+
+</style>
+
+	</head>
+
+	<body> 
+	<audio src="you-got-scammed.aac" id=skam-audio></audio>
+		<h2> (Turn up your volume to hear) </h2>
+
+ <button class="listenButton">
+	 <b>   Listen to this audiobook </b>
+ </button>
+
+
+
+<script>
+	const buttons = document.querySelectorAll(".listenButton")
+	buttons.forEach((button) => {
+		button.addEventListener("click",playAudio);
+	})
+	function playAudio (event){
+	document.getElementById ("skam-audio").play()
+	}
+</script>
+
+	<img width=900 height=200 src="Unafaudible-Scandle-logo.png" />
+
+
+	</body>
+
+</html>
+
