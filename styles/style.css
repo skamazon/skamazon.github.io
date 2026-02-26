@@ -41,7 +41,11 @@ font-family: arial, sans-serif;
       margin: 4px 2px;
       cursor: pointer;
     }
-	.button:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);}
+	.button:hover {
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+      	height: 170;
+      	width: 373;
+	}
 	.githubButton {
 	  	border: 2px solid black;
         border-radius: 8px;
@@ -63,6 +67,11 @@ font-family: arial, sans-serif;
         padding: 10px;
     }
 
+    .githubButtons:hover {
+        display: flex;
+        justify-content: 10;
+        padding: 10px;
+    }
     .alvar {
         border-color: #04AA6D;
         color: green;
@@ -71,6 +80,8 @@ font-family: arial, sans-serif;
     .alvar:hover {
         background-color: #04AA6D;
         color: white;
+		height: 70;
+		width: 420;
     }
     .lee {
         border-color: #3304aa;
@@ -80,6 +91,8 @@ font-family: arial, sans-serif;
     .lee:hover {
         background-color: #3304aa;
         color: white;
+		height: 70;
+		width: 420;
     }
     .organization {
         border-color: #272727;
@@ -89,6 +102,8 @@ font-family: arial, sans-serif;
     .organization:hover {
         background-color: #272727;
         color: white;
+		height: 70;
+		width: 420;
     }
     .credits {
         text-align: right;
